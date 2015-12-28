@@ -30,6 +30,6 @@ order3 = get_order()
 odd_money += get_odd_money(order3)
 print("Он вам принес", str(int(get_food(order3))) + "порций")
 
-print("Общая сдача осталась у официанта в сумме", str(float(odd_money)) + "долларов")
+print("Общая сдача осталась у официанта в сумме", str(round(float(odd_money), 2)) + "долларов")
 
 
